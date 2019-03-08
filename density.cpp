@@ -2,8 +2,6 @@
 #include <string>
 #include <stdio.h>
 #include <iomanip>
-#include <iomanip>
-
 
 using namespace std;
 
@@ -21,10 +19,8 @@ int main()
     
     double volume;
     volume  = mass/ 4*(density);
-    
-    cout << setprecision(2);
-
-    cout <<"the volume is " << volume <<" cubic grams "<<endl;
+   
+    cout <<"the volume is " <<setprecision(2) volume <<" cubic grams "<<endl;
     
     
     return 0;
