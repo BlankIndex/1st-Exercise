@@ -17,10 +17,10 @@ int main()
     cout << "please enter the mass"<< endl;
     cin >> density;
     
-    float volume;
+    double volume;
     volume  = mass/ 4*(density);
    
-    cout <<"the volume is " <<setprecision(2) volume <<" cubic grams "<<endl;
+    cout <<"the volume is " <<setprecision(2) << volume <<" cubic grams "<<endl;
     
     
     return 0;
