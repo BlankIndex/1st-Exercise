@@ -17,7 +17,7 @@ int main()
     cout << "please enter the mass"<< endl;
     cin >> density;
     
-    double volume;
+    float volume;
     volume  = mass/ 4*(density);
    
     cout <<"the volume is " <<setprecision(2) volume <<" cubic grams "<<endl;
