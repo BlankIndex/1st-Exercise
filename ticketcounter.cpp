@@ -1,12 +1,14 @@
 #include <iostream>
 #include <math.h>
+#include <iomanip>
 
-
-int main(){
 using namespace std;
 
+int main(){
+
+
 //for game 1
-        int s1;
+        	int s1;
 		int p1;
 		int b1;
 		int g1;
@@ -28,19 +30,19 @@ using namespace std;
 	 //calculating the results 
         int a;
 		a = g1*10;
-		int b;
+		float b;
 		b=s1*25;
-		int c;
+		float c;
 		c=b1*50;
-		int d;
+		float d;
 		d=p1*100;
 		
     //print results
 
-		cout << "the sales for box for game 1 is "<< a << endl;
-		cout << "the sales for sideline for game 1 is " << b << endl;
-		cout << "the sales for premium for game 1 is "<< c << endl;
-		cout << "the sales for general admission for game 1 is " << d << endl;
+		cout << "the sales for box for game 1 is "<< setprecision(2)<< a << endl;
+		cout << "the sales for sideline for game 1 is " << setprecision(2) << b << endl;
+		cout << "the sales for premium for game 1 is "<< setprecision(2) << c << endl;
+		cout << "the sales for general admission for game 1 is " << setprecision(2) << d << endl;
 
 
 		
@@ -67,31 +69,29 @@ using namespace std;
 		    cout<< "input the number of tickets sales for premium for game 2" <<endl;
 		    cin >> p2;
 		    
-		     cout<< "" <<endl;
-		     cout<< "" <<endl;
-		     cout<< "" <<endl;
+		 
 		     
 	 //calculating the results 
-        int e;
+        	float e;
 		e = g2*10;
-		int f;
+		float f;
 		f=s2*25;
-		int g;
+		float g;
 		g=b2*50;
-		int h;
+		float h;
 		h=p2*100;
 		
     //print results
 
-		cout << "the sales for box for game 2 is "<< e << endl;
-		cout << "the sales for sideline for game 2 is " << f << endl;
-		cout << "the sales for premium for game 2 is "<< g << endl;
-		cout << "the sales for general admission for game 2 is " << h << endl;
+		cout << "the sales for box for game 2 is "<< setprecision(2) << e << endl;
+		cout << "the sales for sideline for game 2 is " << setprecision(2) << f << endl;
+		cout << "the sales for premium for game 2 is "<< setprecision(2) << g << endl;
+		cout << "the sales for general admission for game 2 is "<< setprecision(2)  << h << endl;
 	
 	//for game 3 
 
 
-        int s3;
+       		int s3;
 		int p3;
 		int b3;
 		int g3;
@@ -111,31 +111,29 @@ using namespace std;
 		    cout<< "input the number of tickets sales for premium for game 3" <<endl;
 		    cin >> p3;
 		    
-		     cout<< "" <<endl;
-		     cout<< "" <<endl;
-		     cout<< "" <<endl;
+		     
 		     
 	 //calculating the results 
-        int i;
+       		float i;
 		i = g3*10;
-		int j;
+		float j;
 		j=s3*25;
-		int k;
+		float k;
 		k=b3*50;
-		int l;
+		float l;
 		l=p3*100;
 		
     //print results
 
-		cout << "the sales for box for game 3 is "<< i << endl;
-		cout << "the sales for sideline for game 3 is " <<j << endl;
-		cout << "the sales for premium for game 3 is "<< k << endl;
-		cout << "the sales for general admission for game 3 is " << l << endl;	
+		cout << "the sales for box for game 3 is "<< setprecision(2) << i << endl;
+		cout << "the sales for sideline for game 3 is "<< setprecision(2) <<j << endl;
+		cout << "the sales for premium for game 3 is "<< setprecision(2) << k << endl;
+		cout << "the sales for general admission for game 3 is "<< setprecision(2) << l << endl;	
 		
 	//for game 4 
 
 
-        int s4;
+       		int s4;
 		int p4;
 		int b4;
 		int g4;
@@ -160,21 +158,21 @@ using namespace std;
 		     cout<< "" <<endl;
 		     
 	 //calculating the results 
-        int m;
+       		float m;
 		m = g3*10;
-		int n;
+		float n;
 		n=s3*25;
-		int o;
+		float o;
 		o=b3*50;
-		int p;
+		float p;
 		p=p3*100;
 		
     //print results
 
-		cout << "the sales for box for game 4 is "<< m << endl;
-		cout << "the sales for sideline for game 4 is " << n << endl;
-		cout << "the sales for premium for game 4 is "<< o << endl;
-		cout << "the sales for general admission for game 4 is " << p << endl;	
+		cout << "the sales for box for game 4 is "<< setprecision(2) << m << endl;
+		cout << "the sales for sideline for game 4 is "<< setprecision(2) << n << endl;
+		cout << "the sales for premium for game 4 is "<< setprecision(2)<< o << endl;
+		cout << "the sales for general admission for game 4 is "<< setprecision(2) << p << endl;	
 		
 		
 		
